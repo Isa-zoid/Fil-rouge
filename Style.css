@@ -2,20 +2,59 @@
     padding-right: 3em;
 }
 
+.NavColor{
+background-color: rgb(255, 189, 0);
+}
+
 .nav-item{
     padding: 0em 3em;
 }
 
 body{
-background-color: blue;
+background-color: #e2eaea;
 }
+/* rgb(255, 189, 0)*/
 
 .imgHeader{
     justify-content: center;
     width: 100%;
     height: auto;
 }
-.no-margin{
+
+/*.no-margin{
     margin: 0em --0.6em;
     background-color: white;
+}*/
+
+.cardConnexion{
+    margin: 0em 40%;
+    justify-content: center;
+    background-color: white;
 }
+
+.inscription{ 
+    justify-content: center;
+}
+
+.btnConnectBody{ 
+    background-color: #390099;
+    color:  yellow;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.btnInscripBody{
+    background-color: #390099;
+    color:  yellow;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.MonFooter {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-content: flex-end;
+    background-position: bottom;
+}
+
